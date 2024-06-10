@@ -1,0 +1,107 @@
+.header-container {
+    margin: 20px 115px;
+}
+.header {
+    background-color: rgb(16, 104, 236);
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+}
+.header input[type="text"] {
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 300px; 
+    border: none;
+}
+.header input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.header label {
+    margin-right: 20px;
+}
+.header button {
+    margin-left: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.container {
+    background-color: rgb(5, 5, 197);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 115px;
+}
+.container button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(11, 11, 221);
+    color: white;
+    border: none;
+}
+hr.black-with-shadow {
+    border: none;
+    height: 1px;
+    background-color: #000000; /* Black */
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5); /* Shadow */
+}
+.d{
+    background-color: green;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 12px;
+    height: 100%;
+}
+.title{
+    color: white;
+}
+.divf,.divfg,.divg{
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 5px;
+    
+}
+.divf{
+   
+    background-color: rgb(205, 168, 240);
+    
+}
+.divg{
+    
+    background-color: rgb(73, 230, 99);
+}
+.divfg{
+    
+    background-color: rgb(126, 70, 179);
+}
+.s{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-right: 8px;
+}
+
+/* Increase size slowly on hover for container-header */
+.header-container {
+transition: transform 0.5s ease-in-out;
+box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.5); /* Shadow for header-container */
+}
+
+/* Increase size slowly on hover for container */
+.container {
+transition: transform 0.5s ease-in-out;
+box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.5); 
+}
+
+/* Scale up and add shadow on hover */
+.header-container:hover, .container:hover {
+transform: scale(1.05);
+}
+
+/* Scale down slowly and remove shadow on hover off */
